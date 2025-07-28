@@ -43,7 +43,8 @@ final List<Tourism> tourismList = [
     latitude: 2.6540427,
     like: 12,
     image:
-        'https://cdn.pixabay.com/photo/2016/12/09/11/51/lake-toba-1894746_960_720.jpg',
+        // 'https://cdn.pixabay.com/photo/2016/12/09/11/51/lake-toba-1894746_960_720.jpg',
+        'https://torch.id/cdn/shop/articles/Artikel_170_-_Preview.jpg?v=1713641039'
   ),
   Tourism(
     id: 3,
@@ -55,7 +56,8 @@ final List<Tourism> tourismList = [
     latitude: -7.9424931,
     like: 88,
     image:
-        'https://images.unsplash.com/photo-1505993597083-3bd19fb75e57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1354&q=80',
+        // 'https://images.unsplash.com/photo-1505993597083-3bd19fb75e57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1354&q=80',
+        'https://awsimages.detik.net.id/community/media/visual/2019/03/08/96d60356-f54f-4b9d-a5af-4cbc8c24f3c7_43.jpeg?w=1200'
   ),
   Tourism(
     id: 4,
@@ -79,7 +81,8 @@ final List<Tourism> tourismList = [
     latitude: -8.5892072,
     like: 56,
     image:
-        'https://cdn.pixabay.com/photo/2020/03/21/19/40/komodo-trekking-4955035_960_720.jpg',
+        // 'https://cdn.pixabay.com/photo/2020/03/21/19/40/komodo-trekking-4955035_960_720.jpg',
+        'https://www.djkn.kemenkeu.go.id/files/images/2024/01/WhatsApp_Image_2024-01-24_at_15_43_512.jpeg'
   ),
   Tourism(
     id: 6,
@@ -91,7 +94,8 @@ final List<Tourism> tourismList = [
     latitude: -7.2149012,
     like: 46,
     image:
-        'https://cdn.pixabay.com/photo/2018/12/03/14/01/mount-prau-3853489_960_720.jpg',
+        // 'https://cdn.pixabay.com/photo/2018/12/03/14/01/mount-prau-3853489_960_720.jpg',
+        'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9WHgre1YrkBhSFEN3U3IjymKxcFE6GY0JaJWf4MTXTEt0_m110C29z942Kw9PDo0XJO_UU3egCOErXp19zZn56WCVSkMcpgMWTdr1pE3R30NvNOCEVoE6fPoinbtNwz71gEHOd0EWM2j-aTi_F7USGE8iENL6QRCddSibdXv4wUpqukRdesntA06OGLA/w1200-h630-p-k-no-nu/dieng%20plateau.jpg'
   ),
   Tourism(
     id: 7,
@@ -103,7 +107,8 @@ final List<Tourism> tourismList = [
     latitude: -0.233333,
     like: 10,
     image:
-        'https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
+        // 'https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
+        'https://images.pexels.com/photos/32157316/pexels-photo-32157316/free-photo-of-pemandangan-udara-kepulauan-raja-ampat-yang-menakjubkan.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
   ),
   Tourism(
     id: 8,
