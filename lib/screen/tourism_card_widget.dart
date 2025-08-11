@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tourism_app/models/tourism.dart';
+import 'package:tourism_app/data/model/tourism.dart';
 
 class TourismCard extends StatelessWidget {
   const TourismCard({super.key, required this.tourism, required this.onTap});
