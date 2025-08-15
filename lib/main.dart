@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tourism_app/data/model/tourism.dart';
+import 'package:tourism_app/data/api/api_service.dart';
 import 'package:tourism_app/provider/detail/bookmark_list_provider.dart';
+import 'package:tourism_app/provider/detail/tourism_detail_provider.dart';
 import 'package:tourism_app/provider/main/index_nav_provider.dart';
 import 'package:tourism_app/screen/detail/detail_screen.dart';
+import 'package:tourism_app/screen/home/tourism_list_provider.dart';
 import 'package:tourism_app/screen/main/main_screen.dart';
 import 'package:tourism_app/static/navigation_route.dart';
 
@@ -15,6 +17,14 @@ void main() {
       providers: [
         ChangeNotifierProvider(create: (context) => IndexNavProvider()),
         ChangeNotifierProvider(create: (context) => BookmarkListProvider()),
+        Provider(create: (context) => ApiServices()),
+        ChangeNotifierProvider(
+          create: (context) => TourismListProvider(context.read<ApiServices>()),
+        ),
+        ChangeNotifierProvider(
+          create: (context) =>
+              TourismDetailProvider(context.read()<ApiServices>()),
+        ),
       ],
       child: const MyApp(),
     ),
@@ -35,7 +45,7 @@ class MyApp extends StatelessWidget {
       routes: {
         NavigationRoute.mainRoute.name: (context) => const MainScreen(),
         NavigationRoute.detailRoute.name: (context) => DetailScreen(
-             tourismId: ModalRoute.of(context)?.settings.arguments as int,
+          tourismId: ModalRoute.of(context)?.settings.arguments as int,
         ),
       },
     );
